@@ -1,0 +1,38 @@
+aider\Scripts\activate
+
+aider --browser  
+
+-Run Aider: Open your terminal and start Aider by running the following command with the files you want to edit:
+bash     * aider <file1> <file2> ...
+
+
+-Add Files (/add <file>)   * /add <file>
+Este comando añade archivos a la sesión de chat para que Aider pueda ver
+y editar su contenido.
+
+-Clear Chat History (/clear)   * /clear
+Este comando borra el historial de chat actual.
+
+
+Commit Changes (/commit [commit message])      
+Este comando realiza un commit de los cambios editados fuera del chat.
+
+-Display Diff (/diff)     */diff
+Este comando muestra la diferencia del último commit realizado por Aider.
+
+-Remove Files (/drop <file>) *   /drop app.py
+Este comando elimina archivos de la sesión de chat.
+
+-List Files (/ls)   *  /ls
+Este comando lista todos los archivos conocidos e indica cuáles están en la sesión de chat.
+
+-Switch Model (/model <model_name>)   *  /model gpt-4
+Este comando cambia a un modelo de LLM diferente.
+
+- Undo Commit (/undo) * /undo
+Este comando deshace el último commit realizado por Aider.
+
+
+
+
+

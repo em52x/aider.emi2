@@ -1,0 +1,317 @@
+
+# 2024-06-12 20:19:23.679760
++hola
+
+# 2024-06-12 20:21:06.568727
++hola
+
+# 2024-06-12 20:21:19.970894
++dprint hola
+
+# 2024-06-12 20:22:13.950945
++aider E:\Mcarreth HUB 2023\Respaldo 2024 mayo (code)\Aider-Chat
+
+# 2024-06-12 20:31:31.871616
++hola
+
+# 2024-06-12 20:31:42.044140
++aider hello.py
+
+# 2024-06-12 20:35:12.892259
++/models
+
+# 2024-06-12 20:36:23.837458
++aider create hello.py
+
+# 2024-06-13 00:59:16.881776
++aider C:\Users\em.52x\Documents\GitHub\orion\orion
+
+# 2024-06-13 01:02:00.427201
++me puedes decir tu que archivos debo agregar al chat analizando el codigo por ctags que estan en el directorio
++
++tengo el siguiente problema:
++
++en el archivo next.config.mjs
++
++dice:
++
++Parsing error: Cannot find module 'next/babel'
++Require stack:
++- C:\Users\em.52x\Documents\GitHub\orion\orion\node_modules\next\dist\compiled\babel\bundle.js
++- C:\Users\em.52x\Documents\GitHub\orion\orion\node_modules\next\dist\compiled\babel\eslint-parser.js
++- C:\Users\em.52x\Documents\GitHub\orion\orion\node_modules\eslint-config-next\parser.js
++- C:\Users\em.52x\Documents\GitHub\orion\orion\node_modules\@eslint\eslintrc\dist\eslintrc.cjs
++
++Make sure that all the Babel plugins and presets you are using
++are defined as dependencies or devDependencies in your package.json
++file. It's possible that the missing plugin is loaded by a preset
++you are using that forgot to add the plugin to its dependencies: you
++can workaround this problem by explicitly adding the missing package
++to your top-level package.json.eslint
++
+
+# 2024-06-13 01:02:49.485377
++/add next.config.mjs   package.json
+
+# 2024-06-13 01:04:22.969575
++/add next.config.mjs package.json porfavor ingresa tu y revisa
+
+# 2024-06-13 01:06:18.253920
++ya modificaste el codigo?
+
+# 2024-06-13 01:12:27.934918
++PS C:\Users\em.52x\Documents\GitHub\orion\orion> npx run dev
++Watching C:\Users\em.52x\Documents\GitHub\orion\orion and all sub-directories not excluded by your .gitignore. Will not monitor dotfiles.
++Found & ignored ./node_modules ; is listed in .gitignore
++Found & ignored ./next-env.d.ts ; is listed in .gitignore    
++Found & ignored ./src\app\globals.css ; has ignored extension
++
++Starting: dev
++node:internal/modules/cjs/loader:1148
++  throw err;
++  ^
++
++Error: Cannot find module 'C:\Users\em.52x\Documents\GitHub\orion\orion\dev'
++    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
++    at Module._load (node:internal/modules/cjs/loader:986:27)
++    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
++    at node:internal/main/run_main_module:28:49 {
++  code: 'MODULE_NOT_FOUND',
++  requireStack: []
++}
++
++Node.js v20.14.0
+
+# 2024-06-13 01:14:11.367972
++PS C:\Users\em.52x\Documents\GitHub\orion\orion> npx run dev
++Watching C:\Users\em.52x\Documents\GitHub\orion\orion and all sub-directories not excluded by 
++your .gitignore. Will not monitor dotfiles.
++Found & ignored ./node_modules ; is listed in .gitignore
++Found & ignored ./next-env.d.ts ; is listed in .gitignore    
++Found & ignored ./src\app\globals.css ; has ignored extension
++
++Starting: dev
++node:internal/modules/cjs/loader:1148
++  throw err;
++  ^
++
++Error: Cannot find module 'C:\Users\em.52x\Documents\GitHub\orion\orion\dev'
++    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
++    at Module._load (node:internal/modules/cjs/loader:986:27)
++    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
++    at node:internal/main/run_main_module:28:49 {
++  code: 'MODULE_NOT_FOUND',
++  requireStack: []
++}
++
++Node.js v20.14.0
+
+# 2024-06-13 01:16:14.622910
++sigue con el mismo problema porfavor reparalo
+
+# 2024-06-13 01:17:29.642489
++PS C:\Users\em.52x\Documents\GitHub\orion\orion> npx run dev
++Watching C:\Users\em.52x\Documents\GitHub\orion\orion and all sub-directories not excluded by 
++your .gitignore. Will not monitor dotfiles.
++Found & ignored ./node_modules ; is listed in .gitignore
++Found & ignored ./next-env.d.ts ; is listed in .gitignore
++Found & ignored ./src\app\globals.css ; has ignored extension
++
++Starting: dev
++node:internal/modules/cjs/loader:1148
++  throw err;
++  ^
++
++Error: Cannot find module 'C:\Users\em.52x\Documents\GitHub\orion\orion\dev'
++    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
++    at Module._load (node:internal/modules/cjs/loader:986:27)
++    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
++    at node:internal/main/run_main_module:28:49 {
++  code: 'MODULE_NOT_FOUND',
++  requireStack: []
++}
++
++Node.js v20.14.0
+
+# 2024-06-13 01:22:43.354439
++aider C:\Users\em.52x\Documents\GitHub\orion\orion
+
+# 2024-06-13 01:23:19.031422
++PS C:\Users\em.52x\Documents\GitHub\orion\orion> npx run dev
++Watching C:\Users\em.52x\Documents\GitHub\orion\orion and all sub-directories not excluded by your .gitignore. Will not monitor dotfiles.
++Found & ignored ./node_modules ; is listed in .gitignore
++Found & ignored ./next-env.d.ts ; is listed in .gitignore
++Found & ignored ./src\app\globals.css ; has ignored extension
++
++Starting: dev
++node:internal/modules/cjs/loader:1148
++  throw err;
++  ^
++
++Error: Cannot find module 'C:\Users\em.52x\Documents\GitHub\orion\orion\dev'
++    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
++    at Module._load (node:internal/modules/cjs/loader:986:27)
++    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
++    at node:internal/main/run_main_module:28:49 {
++  code: 'MODULE_NOT_FOUND',
++  requireStack: []
++}
++
++Node.js v20.14.0
+
+# 2024-06-13 01:24:31.051853
++PS C:\Users\em.52x\Documents\GitHub\orion\orion> npx run dev
++Watching C:\Users\em.52x\Documents\GitHub\orion\orion and all sub-directories not excluded by 
++your .gitignore. Will not monitor dotfiles.
++Found & ignored ./node_modules ; is listed in .gitignore
++Found & ignored ./next-env.d.ts ; is listed in .gitignore
++Found & ignored ./src\app\globals.css ; has ignored extension
++
++Starting: dev
++node:internal/modules/cjs/loader:1148
++  throw err;
++  ^
++
++Error: Cannot find module 'C:\Users\em.52x\Documents\GitHub\orion\orion\dev'
++    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
++    at Module._load (node:internal/modules/cjs/loader:986:27)
++    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)    
++    at node:internal/main/run_main_module:28:49 {
++  code: 'MODULE_NOT_FOUND',
++  requireStack: []
++}
++
++Node.js v20.14.0
++
+
+# 2024-06-13 01:25:49.018242
++te he dado el mismo error varias veces y aun aparece que necesitas para arreglarlo?
+
+# 2024-06-13 02:35:07.180353
++aider C:\Users\em.52x\Desktop\orion2\orion
+
+# 2024-06-13 02:37:29.933211
++porfavor acede a todo el codigo tienes los ctags ahi revisa el codigo no cambies nada pero revisalo y dime si le encuentras algo malo o esta todo bien para haccer el commit
+
+# 2024-06-13 02:37:45.657470
++accede a todos
+
+# 2024-06-13 02:38:01.128646
++estoy utilizando ctags
+
+# 2024-06-13 02:38:53.646764
++como te puedo proporionar todo el codigo son ucho archivos quiero que accedas por la opcion ctags
+
+# 2024-06-13 02:40:04.950833
++/add tags
+
+# 2024-06-13 02:58:49.740327
++y?
+
+# 2024-07-25 02:07:01.475082
++aider --model groq/llama3-70b-8192
+
+# 2024-07-25 02:12:49.926588
++hello identify yr ai model
+
+# 2024-07-25 02:13:09.099917
++what model are u using wirtte know
+
+# 2024-07-25 02:13:26.434704
++cuantos parmetros tienes
+
+# 2024-07-25 02:13:47.988563
++ groq/llama3-70b aqui dice 70b
+
+# 2024-07-25 02:14:18.158165
++y por que me dijiste que tenias 1.5 billion?
+
+# 2024-07-25 02:15:52.128487
++-- options
+
+# 2024-07-25 02:16:23.500220
++/models
+
+# 2024-07-25 02:19:56.351966
++aider C:\Users\em.52x\Documents\GitHub\orion-ecosystem
+
+# 2024-07-25 02:20:21.440335
++tienes acceso a todos los archivos?
+
+# 2024-07-25 03:02:20.718799
++/models
+
+# 2024-07-25 03:02:29.182705
++llama3
+
+# 2024-07-25 03:02:53.932685
++/models llama3
+
+# 2024-07-25 03:04:35.604099
++createme a proyect folder called work
+
+# 2024-07-25 03:16:06.510949
++errase work
+
+# 2024-07-25 03:18:14.396562
++/add demo
+
+# 2024-07-25 03:28:22.081532
++are you in the demo folder?
+
+# 2024-07-25 03:28:56.662767
++how can i add a folder to the conversation?
+
+# 2024-07-25 03:30:02.345014
++please meke changes to AIDER STREAMLIT/demo
+
+# 2024-07-25 03:30:29.599390
++create a file name python.py
+
+# 2024-07-25 03:31:44.243454
++please make changes to demo
+
+# 2024-07-25 03:32:12.196747
++add a file name demo.py
+
+# 2024-07-25 03:33:28.755865
++please make changes to /demo
+
+# 2024-07-25 03:33:43.337408
++add a file name demo.py
+
+# 2024-07-25 03:34:43.282734
++aider demo
+
+# 2024-07-25 03:35:46.343835
++giveme the path where are you writgth now
+
+# 2024-07-25 03:48:40.262398
++createme a streamlit aplication
+
+# 2024-07-25 03:50:03.443652
++/add demo\demo.py
+
+# 2024-07-25 03:50:18.076500
++/drop demo.py
+
+# 2024-07-25 03:50:38.050731
++createme a streamlit aplication
+
+# 2024-07-25 03:50:53.814030
++/drop app.py
+
+# 2024-07-25 03:51:05.150933
++createme a streamlit aplication
+
+# 2024-07-25 03:54:46.766706
++cd demo
+
+# 2024-07-25 03:55:16.195058
++can you see all the folders?
+
+# 2024-07-25 05:24:57.736254
++hola
+
+# 2024-07-25 07:40:15.849998
++creame un programa en streamlit que integre pytrends y cree un darshboard con un analysis de la busqueda del usuario
